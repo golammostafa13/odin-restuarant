@@ -7,7 +7,7 @@ body {
     background-position: center;
 }
 #content{
-  height: 150vh;
+  height: 100vh;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
@@ -81,4 +81,29 @@ body {
   align-items: center;
   justify-content: center;
   border-top: 1px solid #777;
+  padding: 20px 0;
+}
+.menu{
+  width:80%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item{
+  height: 400px;
+  width: 400px;
+  margin: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  text-transform: capitalize;
+}
+.item img{
+  height: 60%;
+  width: 60%;
 }
