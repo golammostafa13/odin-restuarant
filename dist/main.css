@@ -94,7 +94,7 @@ body {
 .item, .intro{
   height: 400px;
   width: 400px;
-  margin: 10px;
+  margin: 20px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -104,9 +104,13 @@ body {
   text-transform: capitalize;
   text-align: center;
 }
+.item:hover{
+  background: rgba(255, 255, 255, 0.2);
+}
 .item img{
   height: 60%;
   width: 60%;
+  border-radius: 50%;
 }
 .intro a{
   cursor: pointer;
